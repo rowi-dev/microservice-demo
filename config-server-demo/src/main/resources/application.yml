@@ -1,5 +1,15 @@
 server:
   port: 8191
 spring:
-  profiles:
-    active: native
+  cloud:
+    config:
+      server:
+        git:
+#          uri: file://opt/PROJECT/sample/microservices/config-store
+          uri: https://github.com/rowi-dev/config-store
+#          uri: https://github.com/krish/microservices-course-on-youtube-config-store
+#          search-paths:
+#            - '*'
+#spring:
+#  profiles:
+#    active: native

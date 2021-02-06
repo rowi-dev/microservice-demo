@@ -1,0 +1,4 @@
+server:
+    greeting: Hello, This is service 1
+    name: Service 1
+    profile: dev
